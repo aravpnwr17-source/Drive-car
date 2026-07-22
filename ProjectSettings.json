@@ -1,0 +1,27 @@
+{
+  "projectName": "Drive-Car",
+  "version": "0.1.0-alpha",
+  "gameEngine": "Unity 2023 LTS",
+  "targetPlatforms": [
+    "PC",
+    "PlayStation 5",
+    "Xbox Series X/S"
+  ],
+  "graphicsSettings": {
+    "renderPipeline": "Universal Render Pipeline (URP)",
+    "targetResolution": "1920x1080",
+    "targetFPS": 60,
+    "rayTracing": true,
+    "antiAliasing": "DLSS"
+  },
+  "physics": {
+    "gravity": -9.81,
+    "fixedDeltaTime": 0.02,
+    "timeScale": 1.0
+  },
+  "audio": {
+    "masterVolume": 0.8,
+    "musicVolume": 0.6,
+    "sfxVolume": 0.7
+  }
+}
